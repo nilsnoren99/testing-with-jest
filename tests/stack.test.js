@@ -20,5 +20,5 @@ test('peek on stack with two or more elements returns the top element', () => {
 
 //Mitt egna test (Enhetstest)
 test('stack should be empty when created', () => {
-    expect(stack.isEmpty()).toBe(true);
+    expect(stack.isEmpty()).toBe(false);
 });

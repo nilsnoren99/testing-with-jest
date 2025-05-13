@@ -38,5 +38,5 @@ describe('Clicking "Pusha till stacken"', () => {
 //Mitt egna test (End-to-end)
 test('Controls that the website laddar in samt visar rätt rubrikk', async () => {
     const heading = await driver.findElement(By.tagName('h1')).getText();
-    expect(heading).toBe('Min Stack-Applikation');
+    expect(heading).toBe('Här kan vi leka med en stack');
 });

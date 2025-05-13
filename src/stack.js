@@ -17,3 +17,8 @@ exports.peek = function () {
     return _.last(stack);
 }
 
+
+//Returnerar true om stacken är tom, och om inte så false 
+exports.isEmpty = function () {
+    return stack.length === 0;
+}
