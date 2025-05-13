@@ -34,3 +34,9 @@ describe('Clicking "Pusha till stacken"', () => {
         await alert.accept();
     });
 });
+
+//Mitt egna test (End-to-end)
+test('Controls that the website laddar in samt visar rätt rubrikk', async () => {
+    const heading = await driver.findElement(By.tagName('h1')).getText();
+    expect(heading).toBe('Min Stack-Applikation');
+});
