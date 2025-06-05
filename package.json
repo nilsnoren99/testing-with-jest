@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "geckodriver": "^5.0.0",
-    "selenium-webdriver": "^4.32.0",
+    "selenium-webdriver": "^4.33.0",
     "underscore": "^1.13.7"
   },
   "devDependencies": {
